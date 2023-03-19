@@ -1,0 +1,10 @@
+patient
+1)signup/login
+2)view avaliable doctors in a certain department
+3)booking an appointment
+4)cancel a booked appointment
+
+doctor
+1)login
+2)view appointments and schedules
+3)view earnings

@@ -1,0 +1,13 @@
+product requirment : 
+1)The hospital system shall be available to all users during normal
+working hours
+2)user must be authenticated by entering username and password
+3)password is encrypted
+4)the system ui shall be user friendly
+
+organizational requirment : Users of the Hospital system shall authenticate themselves using
+their national identity card.
+
+External requirment : The system shall implement patient privacy provisions as set out in
+HStan-03-2006-priv.
+

@@ -1,0 +1,6 @@
+1)A user shall be able to search the appointments lists for
+all doctors
+2)The system shall generate each day, for each doctor, a
+list of patients who are expected to attend appointments
+that day
+3)each doctor has an 4-digit identification number

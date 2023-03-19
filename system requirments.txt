@@ -1,0 +1,13 @@
+1)file system  to keep track of users and checking if user already exist
+2)The system shall provide the user with availabe doctors in each department 
+2.1)system provide the user with free reservation times for the selected doctor
+2.2)system make sure that no two reserve the same time slot
+2.3)if time slot is availabe then the system shall save the appointment in the data file
+2.4)the system shall provide the user with the option to cancel
+2.5)if user cancels the appointment it's removed from the data file and it becomes available to other users
+2.6)the system shall inform the user with the price
+3)doctor signup must be through an admin
+3.1)upon siging up the system let the doctor decide his working hours in the first time he logs in 
+3.2)system provide the doctor with reserved appointments and there time slots
+3.3)system shall calcualte the doctor earnings for a certain day by calculating the number of appointments
+ 

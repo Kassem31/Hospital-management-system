@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: darkred;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hospital_reservation_sysytem.DoctorController">
+    <children>
+        <VBox layoutX="13.0" layoutY="6.0" prefHeight="393.0" prefWidth="587.0" style="-fx-background-color: darkred;">
+            <children>
+                <HBox prefHeight="100.0" prefWidth="582.0">
+                    <children>
+                        <Label prefHeight="66.0" prefWidth="94.0" text="Welcome, " textFill="#ccff00">
+                            <font>
+                                <Font name="Arial Bold" size="18.0" />
+                            </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                        </Label>
+                        <Label fx:id="DoctorNameLabelID" prefHeight="66.0" prefWidth="134.0" text="DoctorName" textFill="#ccff00">
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                        </Label>
+                    </children>
+                </HBox>
+                <StackPane prefHeight="82.0" prefWidth="587.0">
+                    <children>
+                        <Button fx:id="viewAppointmentsBtn" mnemonicParsing="false" onAction="#viewAppointmentsClick" prefHeight="38.0" prefWidth="191.0" style="-fx-background-color: #0ec466;" text="View Appointments" textAlignment="CENTER" textFill="#7404f4">
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                        </Button>
+                    </children>
+                </StackPane>
+                <StackPane prefHeight="82.0" prefWidth="587.0">
+                    <children>
+                        <Button fx:id="viewEarningsBtn" mnemonicParsing="false" onAction="#viewEarningsClicked" prefHeight="38.0" prefWidth="194.0" style="-fx-background-color: #0ec466;" text="View Earnings" textAlignment="CENTER" textFill="#7404f4">
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                        </Button>
+                    </children>
+                </StackPane>
+                <Pane prefHeight="38.0" prefWidth="587.0" />
+                <HBox prefHeight="61.0" prefWidth="587.0">
+                    <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0" />
+                        <Pane prefHeight="200.0" prefWidth="200.0" />
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <Button fx:id="logoutBtn" layoutX="74.0" layoutY="35.0" mnemonicParsing="false" onAction="#LogoutClicked" prefHeight="26.0" prefWidth="65.0" text="Logout" textAlignment="CENTER">
+                                    <font>
+                                        <Font name="System Bold" size="12.0" />
+                                    </font>
+                           <effect>
+                              <InnerShadow />
+                           </effect>
+                                </Button>
+                            </children>
+                        </Pane>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</Pane>
